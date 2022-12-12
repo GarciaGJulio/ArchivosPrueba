@@ -90,8 +90,8 @@ block_keep: >+
 
 # Nesting uses indentation. 2 space indent is preferred (but not required).
 a_nested_map:
-  kb by: value
-  a  nother_key: Another Value
+  key: value
+  another_key: Another Value
   another_nested_map:
     hello: hello
 
@@ -122,7 +122,7 @@ a_sequence:
   - key: value
     another_key: another_value
   - - This is a sequence
-    - inside another sequence
+    inside another sequence #-tab
   - - - Nested sequence indicators
       - can be collapsed
 
